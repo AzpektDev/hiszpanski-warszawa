@@ -72,6 +72,7 @@ function App() {
           </Box>
           <Image borderRadius={10} align={"right"} h={400} src="lazienki.png" alt="Image" />
         </Flex>
+        <Text mb={50} textAlign={"center"} fontSize={"3xl"}>¡Gracias por su atención!</Text>
       </header>
     </div>
   );
