@@ -42,41 +42,16 @@ export default function WithSubnavigation() {
           />
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+          <Image src="/logo.svg" w={7} h={7} />
           <Text
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
-            color={'brand.textMain1'}>
-            <Image src="/logo.svg" w={7} h={7} />
-          </Text>
-
+            color={'brand.textMain1'}></Text>
+            <Text ml={"2"}>Varsovia</Text>
           <Flex display={{ base: 'none', md: 'flex' }} ml={5}>
             <DesktopNav />
           </Flex>
         </Flex>
-
-        <Stack flex={{ base: 1, md: 0 }} justify={'flex-end'} direction={'row'} spacing={6}>
-          <Button
-            as={'a'}
-            fontSize={'sm'}
-            fontWeight={400}
-            variant={'link'}
-            href={'#'}
-            color={'brand.textMain1'}
-            _hover={{ color: 'brand.textAccent' }}>
-            Sign In
-          </Button>
-          <Button
-            display={{ base: 'none', md: 'inline-flex' }}
-            fontSize={'sm'}
-            fontWeight={600}
-            color={'white'}
-            bg={'brand.buttonMain1'}
-            _hover={{
-              bg: 'brand.buttonHover1'
-            }}>
-            Sign Up
-          </Button>
-        </Stack>
       </Flex>
 
       <Collapse in={isOpen} animateOpacity>
@@ -227,26 +202,4 @@ interface NavItem {
   href?: string;
 }
 
-const NAV_ITEMS: Array<NavItem> = [
-  {
-    label: 'some text',
-    /*
-    children: [
-      {
-        label: 'idk',
-        subLabel: 'lorem',
-        href: '#'
-      },
-      {
-        label: 'idk',
-        subLabel: 'ipsum',
-        href: '#'
-      }
-    ]
-    */
-  },
-  {
-    label: 'some text v2',
-    href: '#'
-  },
-];
+const NAV_ITEMS: Array<NavItem> = [];
