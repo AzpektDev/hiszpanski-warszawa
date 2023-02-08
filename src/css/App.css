@@ -9,3 +9,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 } */
+
+.App {
+  background-color: #202020;
+}
+
+.imageBg {
+  background-color: rgba(0, 0, 0, 0.589);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  height: 50em;
+  flex-direction: column;
+  background-image: url('../../public/head.png');
+  background-blend-mode: color;
+}

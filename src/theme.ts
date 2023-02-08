@@ -3,6 +3,7 @@ import { extendTheme } from '@chakra-ui/react';
 const theme = extendTheme({
   initialColorMode: 'dark',
   useSystemColorMode: false,
+  //TODO: update background color (visible on scroll)
   colors: {
     brand: {
       bgMain1: '#202020',
@@ -19,6 +20,9 @@ const theme = extendTheme({
       buttonSelected: '#0f410a',
       buttonDisabled: '#0f410a',
     },
+  },
+  fonts: {
+    body: `'DMSans', 'Open Sans', sans-serif`
   }
 });
 
