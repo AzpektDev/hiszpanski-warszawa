@@ -32,7 +32,7 @@ function App() {
             Varsovia
           </Text>
           <Text className="test">
-            Realizado por Eryk Janczek, Mateusz Marczyk, Łukasz Lewański, Aleksander Cybulski
+            Realizado por Eryk Janczek, Mateusz Marczyk, Łukasz Lewański y Aleksander Cybulski
           </Text>
         </div>
 
