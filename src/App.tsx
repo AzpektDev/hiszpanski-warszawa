@@ -3,23 +3,7 @@ import Navbar from './components/Navbar';
 //TODO: check if it imports properly
 import './assets/fonts/DMSans-Regular.ttf';
 
-import {
-  Box,
-  Flex,
-  Text,
-  IconButton,
-  Button,
-  Stack,
-  Icon,
-  Link,
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-  useColorModeValue,
-  useBreakpointValue,
-  useDisclosure,
-  Image
-} from '@chakra-ui/react';
+import { Box, Flex, Text, Image } from '@chakra-ui/react';
 import './css/App.css';
 
 function App() {
@@ -67,7 +51,7 @@ function App() {
           <Box ml={50}>
             <Flex flexFlow={'row'}>
               <Text mt={50} fontSize={'3xl'} as="b">
-                Palacio presidencial
+                Palacio Presidencial
               </Text>
               <Text mt={59.5} fontSize={'xl'} ml={2.5} as="i" color={'gray.400'}>
                 Pałac prezydencki
@@ -129,7 +113,7 @@ function App() {
           <Box mr={50}>
             <Flex flexFlow={'row'}>
               <Text mt={50} fontSize={'3xl'} as="b">
-                baño real
+                Los Baños Reales
               </Text>
               <Text mt={59.5} fontSize={'xl'} ml={2.5} as="i" color={'gray.400'}>
                 Łazienki królewskie
