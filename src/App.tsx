@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-//TODO: check if it imports properly
 import './assets/fonts/DMSans-Regular.ttf';
 
 import { Box, Flex, Text, Image } from '@chakra-ui/react';
@@ -9,7 +7,6 @@ import './css/App.css';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
       <header className="App-header">
         <div className="imageBg">
           <Text fontSize={'6xl'} fontWeight={'600'} mt={250}>
