@@ -13,7 +13,7 @@ function App() {
       <header className="App-header">
         <div className="imageBg">
           <Text fontSize={'6xl'} fontWeight={'600'} mt={250}>
-            Varsovia
+            Viaje por Varsovia
           </Text>
           <Text className="test">
             Realizado por Eryk Janczek, Mateusz Marczyk, Łukasz Lewański y Aleksander Cybulski
