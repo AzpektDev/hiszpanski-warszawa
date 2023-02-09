@@ -16,4 +16,4 @@ $ npm start
 ```
 
 <hr>
-Created with ❤️ by [Azpekt](https://azpekt.dev)
+Created with ❤️ by <a href="https://azpekt.dev">Azpekt</a>
